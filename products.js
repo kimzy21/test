@@ -6,7 +6,7 @@ let products = [
         title:"Cat Food 25 lb bag",
         description:"Irresisitible cat food for your cat",
         price: 20.00,
-        image: "images/product-fullsize.png",
+        image: "dancing.png",
         availableInventory: 3,
         rating:3
     },
@@ -15,7 +15,7 @@ let products = [
         title:"Cat House",
         description:"Irresisitible cat House for your cat",
         price: 2000,
-        image: "images/cat-house.jpg",
+        image: "image/cat-house.jpg",
         availableInventory: 5,
         rating:4
     },
@@ -23,7 +23,7 @@ let products = [
         id:1003,
         title:"Cat Litter",
         price: 1000,
-        image: "images/cat-litter.jpg",
+        image: "image/cat-litter.jpg",
         availableInventory: 9,
         rating:5
     },
@@ -32,7 +32,7 @@ let products = [
         title:"Laser Pointer",
         description:"Irresisitible laser pointer for your cat",
         price: 25.99,
-        image: "images/laser-pointer.jpg",
+        image: "image/laser-pointer.jpg",
         availableInventory: 9,
         rating:4
     },
@@ -41,7 +41,7 @@ let products = [
         title:"Cat Toy Mindy Mouse",
         description:"Irresisitible cat toy for your cat",
         price: 3.99,
-        image: "images/Mindy_Mouse_cat_toy.jpg",
+        image: "image/Mindy_Mouse_cat_toy.jpg",
         availableInventory: 5,
         rating:3
     },
@@ -50,7 +50,7 @@ let products = [
         title:"Cat Yarn",
         description:"Irresisitible cat yarn for your cat",
         price: 2.99,
-        image: "images/yarn.jpg",
+        image: "image/yarn.jpg",
         availableInventory: 3,
         rating:2
     },
