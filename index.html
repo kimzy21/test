@@ -28,7 +28,7 @@
 
                     </button>
                 </header>
-                <div v-for="product in products">
+                <div v-for="product in sortedProducts">
                     <h2 v-text="product.title"></h2>
                     <figure>
                         <img v-bind:src="product.image" alt="Cat Image" class="product-image">
@@ -120,6 +120,15 @@
                 message: 'Welcome to my Pet Store !!!!'
             },
             computed: {
+                sortedProducts() {
+                    //the comparison function that defines the order
+                    function compare(a, b) {
+                        if (a.price > b.price) return 1;
+                        if (a.price < b.price) return -1;
+                        return 0;
+                    }
+                    return this.products.sort(compare);
+                },
                 cartItemCount() {
                     return this.cart.length;
                 }
