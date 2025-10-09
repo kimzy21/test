@@ -36,7 +36,7 @@
                     </span>
                     <span v-else>Buy now!</span>
                     <figure>
-                        
+                        <img v-bind:src="product.image" alt="Cat Image" class="product-image">
                         <figcaption>Image of {{product.title}}</figcaption>
                     </figure>
                     <h2 v-text="product.title"></h2>
